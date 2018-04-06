@@ -1,0 +1,290 @@
+body, html {
+	margin: 0;
+}
+.container {
+	width: 100%;
+	height: 100vh;
+}
+header {
+	width: 100%;
+	height: 100px;
+	background: #262626;
+	box-sizing: border-box;
+	align-items: center;
+	display: none;
+	grid-template-columns: 1fr 3fr;
+}
+.header-title-link,
+.aside-title-link {
+	text-decoration: none;
+}
+header .title {
+	box-sizing: border-box;
+	padding: 10px 0;
+}
+header span {
+	padding-left: 30px;
+    font-size: 20px;
+    color: #d4d4d4;
+	line-height: 25px;
+}
+nav {
+	box-sizing: border-box;
+    padding: 20px;
+	grid-column: 2/3;
+}
+nav ul {
+	margin: 0;
+	float: right;
+}
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+aside {
+	width: 260px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #262626;
+	box-sizing: border-box;
+	padding: 40px 10px;
+	padding-left: 20px;
+	font-size: 14px;
+	color: #d4d4d4;
+	display: flex;
+	align-items: center;
+}
+
+aside span {
+	line-height: 22px;
+}
+aside h1 {
+	margin: 0;
+	font-size: 20px;
+	margin-bottom: 60px;
+}
+nav ul,
+aside ul {
+	list-style: none;
+	padding-left: 20px;
+}
+aside ul li {
+	margin-bottom: 50px;
+}
+nav a,
+aside a {
+	text-decoration: none;
+	color: #d4d4d4;
+	padding-bottom: 10px;
+	letter-spacing: 2.4px;
+	font-size: 13px;
+}
+aside .aside-title-link:hover {
+	color: #d4d4d4;
+}
+
+nav li.active>a,
+nav li>a:focus,
+nav a:hover,
+aside li.active>a,
+aside li>a:focus,
+aside a:hover {
+	color: #0fa0eb;
+	border-bottom: 1px solid #f5f5f5;
+}
+/*************************************************/
+.main {
+	width: calc(100% - 260px);
+	height: 100vh;
+	box-sizing: border-box;
+	padding: 10px 20px;
+	margin-left: 260px;
+}
+.main-title {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.main-title h1 {
+	font-size: 38px;
+    line-height: 40px;
+    font-weight: 300;
+    letter-spacing: 9px;
+	color: #222222;
+	font-family: 'Raleway', sans-serif;
+}
+.main-section {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.main-section.contact {
+	display: grid;
+	grid-template-columns: 5fr 2fr;
+}
+.main-section h3 {
+	color: #1e73be;
+}
+.main-section-right,
+.main-section-left {
+	box-sizing: border-box;
+	padding: 20px;
+}
+.main-section-right {
+	padding-top: 40px;
+}
+.main-section-left p {
+	line-height: 26px;
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Raleway', sans-serif;
+	color: #343434;
+}
+.main-section-right img {
+	width: 100%;
+}
+.main-section .contact p{
+	text-align: center;
+}
+.main-section-right.contact {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-row-gap: 10px;
+}
+.main-section-right.contact img {
+	width: 150px;
+	margin: auto;
+}
+.contact-section {
+	margin-bottom: 60px;
+}
+/*************************************************/
+form {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: #343434;
+}
+
+form input,
+form textarea {
+	width: 90%;
+	margin: auto;
+	margin-top: 8px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	padding: 8px 10px;
+}
+form textarea {
+	resize: none;
+	height: 70px;
+	margin-bottom: 20px;
+}
+form button {
+	padding: 15px 20px;
+	background: #262626;
+	color: #d4d4d4;
+	letter-spacing: 2.4px;
+	border: 1px solid #443d3d;
+}
+form button:hover {
+	background: #443d3d;
+}
+.drop {
+	display: none;
+}
+/*************************************************/
+@media only screen and (max-width: 1000px) {
+	aside {
+		display: none;
+	}
+	header {
+		display: grid;
+	}
+	.main {
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.main-section {
+		width: 100%;
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.main-section-left .contact {
+		grid-column: 1/-1;
+	}
+	.main-section.contact {
+		grid-template-columns: 1fr;
+	}
+	.main-section-right.contact {
+		grid-column: 1/-1;
+		display: grid;
+		grid-template-columns: repeat(4,1fr);
+		grid-column-gap: 5px;
+		
+	}
+	.main-section-right.contact img {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	nav ul {
+		display: none;
+	}
+	nav {
+		overflow: hidden;
+		grid-column: 1/2;
+		grid-row: 1/2;
+		padding-left: 0;
+	}
+
+	header {
+		grid-template-columns: 40px 1fr;
+	}
+	header .title {
+		grid-column: 2/3;
+		text-align: center;
+	}
+	.drop {
+		display: block;
+	}	
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		top: 0;
+		background-color: #f9f9f9;
+		min-width: 100%;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+
+	.dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	}
+
+	.dropdown-content a:hover {
+		background-color: #ddd;
+	}
+	.surrounding {
+	  padding-left: 10px;
+	}
+	.surrounding span {
+	  display: block;
+	  border: 2px solid white;
+	  margin: 5px;
+	}
+	.drop:hover .dropdown-content {
+	  display: block;
+	}
+}
+/*git remote add origin https://github.com/JohnL3/milestone_project_one.git
+git push -u origin master*/
