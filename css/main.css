@@ -172,7 +172,7 @@ form input,
 form textarea {
 	width: 90%;
 	margin: auto;
-	margin-top: 8px;
+	margin: 8px 5px;
 	margin-bottom: 10px;
 	font-size: 18px;
 	padding: 8px 10px;
