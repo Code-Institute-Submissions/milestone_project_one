@@ -239,7 +239,9 @@ form button {
 	background: #262626;
 	color: #d4d4d4;
 	letter-spacing: 2.4px;
-	border: 1px solid #443d3d;
+	border: 1px;
+	border-style: solid;
+	border-color: #443d3d;
 }
 form button:hover {
 	background: #443d3d;
