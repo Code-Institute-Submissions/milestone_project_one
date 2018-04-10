@@ -228,6 +228,9 @@ form textarea {
 	margin-bottom: 10px;
 	font-size: 18px;
 	padding: 8px 10px;
+	border: 1px;
+	border-style: solid;
+	border-color: #443d3d;
 }
 form textarea {
 	resize: none;
