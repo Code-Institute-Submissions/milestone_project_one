@@ -101,15 +101,19 @@ aside {
 aside span {
 	line-height: 22px;
 }
-aside h1 {
-	margin: 0;
+.aside-title {
 	font-size: 20px;
-	margin-bottom: 60px;
+	font-weight: 600;
+	line-height: 1.2;
 }
+
 nav ul,
 aside ul {
 	list-style: none;
 	padding-left: 20px;
+}
+aside ul {
+	margin-top: 60px;
 }
 aside ul li {
 	margin-bottom: 35px;
@@ -123,6 +127,7 @@ aside a {
 }
 aside .aside-title-link:hover {
 	color: #d4d4d4;
+	border-bottom: none;
 }
 
 nav li.active>a,
