@@ -2,6 +2,9 @@
 
 Project hosted at: [Emily Claire Photography](https://johnl3.github.io/milestone_project_one/index.html)  
 
+This project did not fufill one of the requirements, having a audio clip as I could not think of a logical
+reason for having a audio clip on a photography website.   
+
 A web site for those looking for the services of a photographer. Using a simple reactive layout that
 can be viewed on both small and large screens.  
 
