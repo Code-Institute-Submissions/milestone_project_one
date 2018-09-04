@@ -7,3 +7,20 @@ can be viewed on both small and large screens.
 
 ## UX
 
+This website is for anybody looking for a photographer.  
+
+As a user I should be able to visit a page containing the name of the website.  
+As a user I should be able to navigate to all the other pages from the landing page.  
+As a user I should be able to vist an about page which details what the photographer dose.
+As a user I should be able to navigate to all other pages from the about page.  
+As a user I should be able to navigate to a gallery page to see some examples of the photographers work.  
+As a user I should be able to navigate to all other pages from the gallery page.
+As a user I should be able to navigate to a contact page to find photographers contact details and fill in a
+form if I require further information.  
+As a user I should be able to navigate to all other pages from the contact page.
+As a user I should be able to navigate to a tips page to see some photography tips.  
+As a user I should be able to navigate to all other pages from the tips page.
+
+
+
+
