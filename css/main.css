@@ -234,7 +234,7 @@ hr {
 /* Tips page */
 iframe {
 	width: 355px;
-	height: 200px;
+	height: 300px;
 }
 .tips p {
 	text-align: initial;
@@ -419,7 +419,7 @@ form button:hover {
 @media only screen and (max-width: 490px){
 	iframe {
 		width: 300px;
-		height: 168px;
+		height: 300px;
 	}
 }
 @media only screen and (max-width: 350px){
