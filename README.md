@@ -51,6 +51,12 @@ For css I used css grid
 
 ## Deployment
 
+Web site is deployed to git hub pages.  
+1. This was done by clicking on the settings link in the repository 
+2. And then giving the website a name
+3. Scrolling down to GitHub pages section
+4. And setting the source to master branch
+
 ## Credits
 
 ### Content
