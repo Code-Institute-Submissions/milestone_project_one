@@ -42,8 +42,31 @@ On small screens there is a dropdown navigation.
 As this project had to be done in html and css it would be nice to change the dropdown menu which was
 done using only css, to use javascript as I feel it would work better.
 
+## Technologies Used
 
+This site used just html and css.  
+For css I used css grid
 
+## Testing
+
+## Deployment
+
+## Credits
+
+### Content
+
+The text in the about page was taken from [Michael Donnelly photography about page](http://www.michaeldonnellyphotography.com/about/)
+
+### Media 
+
+All Photos used in this websit are my own.
+Video is from [Professional Photography Tips](https://www.youtube.com/channel/UCJ2CMGw35yb3BZieF60_rWA)
+
+## Acknowledgements
+
+I looked at various photography web sites for inspiration and decided to base mine on
+[Michael Donnelly photography about page](http://www.michaeldonnellyphotography.com/)
+as I liked the simplistic style of it.
 
 
 
