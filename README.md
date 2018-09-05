@@ -49,6 +49,8 @@ For css I used css grid
 
 ## Testing
 
+Testing is discussed here: [testing_doc](./testing_doc.md)
+
 ## Deployment
 
 Web site is deployed to git hub pages.  
