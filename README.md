@@ -59,13 +59,13 @@ The text in the about page was taken from [Michael Donnelly photography about pa
 
 ### Media 
 
-All Photos used in this websit are my own.
+All Photos used in this websit are my own.  
 Video is from [Professional Photography Tips](https://www.youtube.com/channel/UCJ2CMGw35yb3BZieF60_rWA)
 
 ## Acknowledgements
 
 I looked at various photography web sites for inspiration and decided to base mine on
-[Michael Donnelly photography about page](http://www.michaeldonnellyphotography.com/)
+[Michael Donnelly photography](http://www.michaeldonnellyphotography.com/)
 as I liked the simplistic style of it.
 
 
